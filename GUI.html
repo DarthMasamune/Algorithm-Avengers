@@ -1,8 +1,24 @@
 <html>
-    <head><script src="FileReader.js"></script></head>
     <body>
-        <input type="button" id="submit" value="Submit">
+        <input type="button" id="submitBTN" value="Submit">
         <input type="file" id="myFile" name="File">
-        <p id="temp"></p>
+        <input type="button" id="try" value="Try">
+
+
+        <input type="button" id="add" value="Add">
+        <input type="button" id="sortIntensityLow" value="Intensity Low">
+        <input type="button" id="sortIntensityHigh" value="Intensity High">
+        <select name="Sort By:" id="sortVal">
+            <option value="IA">Intensity Accending</option>
+            <option value="ID">Intensity Decending</option>
+        </select>
+
+        <div class="listing" id="listing">
+
+        </div>
+
+        <!--Other File Referencces-->
+        <script src="FileReader.js"></script>
+        <link rel="stylesheet" href="/GUI.css"></script>
     </body>
 </html>
